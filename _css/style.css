@@ -7,10 +7,7 @@ cinza #e5edf0
 ::selection{
 	background-color: #004b73;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 7b0e78f0ace2d73190246aeb0dd41ecd071b60eb
 /* Scrollbar */
 ::-webkit-scrollbar { /* espessura da barra de rolagem */
     width: 10px;
@@ -25,10 +22,7 @@ cinza #e5edf0
 ::-webkit-scrollbar-thumb:hover { /* hover da barra de rolagem em si */
     background-color: #222;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 7b0e78f0ace2d73190246aeb0dd41ecd071b60eb
 body {
 	font-family: 'Open Sans', sans-serif;
 }
