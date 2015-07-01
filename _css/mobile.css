@@ -1,0 +1,103 @@
+@media only screen and (max-width: 915px) {
+	.bg {
+		 left: 100%;
+    
+	}
+	.search {
+		text-align: right;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	nav ul li, nav li a {
+		width: 100%;
+	}
+	nav ul {
+		padding: 0;
+	}
+	nav a{
+		padding: 1.5% 20%;
+	}
+	.col-nav {
+		background-color: rgba(0, 75, 115, .8);
+		line-height: 35px;
+	}
+	.f-nav {
+		position: relative;
+	}
+	
+	h3 {
+		max-width: 70%;
+	}
+
+	#about p,
+	#complain p{
+		max-width: 90%;
+	}
+
+	.btn-complain {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#main-header {
+		height: 240px;
+		background-color: rgba(229, 237, 240, .8);
+	}
+	.col-logo {
+		width: 100%;
+	}
+	.search {
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+	header input[type=text] {
+		width: 60%;	
+	}
+
+	header ::-webkit-input-placeholder {
+   		color: #004b73;
+	}
+	header ::-moz-placeholder {
+	   color: orange;
+	}
+	header :-ms-input-placeholder {  
+	   color: orange;
+	}
+	
+	.col-3 {
+	display: block;
+	float: left;
+	width: 100%;/*100% movel*/
+	}
+	.col-content {
+		padding-bottom: 100px;
+	}
+	h3{
+		max-width: 80%;
+	}
+	.btn-complain {
+		width: 35%;
+	}
+	#contact fieldset {
+		width: 80%;
+	}
+	.col-2 {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.col-logo img{
+		width: 100%;
+	}
+	header input[type=text] {
+		width: 65%;
+	}
+	.btn-complain {
+		width: 80%;
+	}
+}
